@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    
+</head>
+<body>
+    <script src="js/script.js"></script>
+    <div class="titulo">
+        <h1>Calculadora Java Script</h1>
+    </div>
+    <div id="calculadora">
+        
+        <input type="text" class="caj" id="result"  disabled>
+        
+        <div id="container">
+            
+            <button class="caja" value="cuadrado" onclick="cuadrado()">x²</button>
+            <button class="caja" value="√" onclick="raiz()">√</button>
+            <button class="caja" value="/" onclick="escribir('/')">÷</button>
+            <button class="caja" value="re" onclick="resetear()">AC</button>
+            <br>
+            <button class="caja" value="7"onclick="escribir(this.value)" >7</button>
+            <button class="caja" value="8" onclick="escribir(this.value)">8</button>
+            <button class="caja" value="9" onclick="escribir(this.value)" >9</button>
+            <button class="caja" value="x" onclick="escribir('*')">x</button>
+            <br>
+            <button class="caja" value="4"onclick="escribir(this.value)"  >4</button>
+            <button class="caja" value="5"onclick="escribir(this.value)" >5</button>
+            <button class="caja" value="6"onclick="escribir(this.value)" >6</button>
+            <button class="caja" value="-"  onclick="escribir('-')">-</button>
+            <br>
+            <button class="caja" value="1" onclick="escribir(this.value)" >1</button>
+            <button class="caja" value="2"onclick="escribir(this.value)" >2</button>
+            <button class="caja" value="3" onclick="escribir(this.value)">3</button>
+            <button class="caja" value="+" onclick="escribir('+')">+</button>
+            <br>
+            <button class="caja1" value="0" >0</button>
+            <button class="caja" value="." onclick="escribir('.')" >.</button>
+            <button class="caja" value="=" onclick="calc()" >=</button>
+           </div>
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+   <footer>©Hecho por Alvaro Alonso Alva Chipana</footer>
+</body>
+</html>
